@@ -2,20 +2,22 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 매일 실행
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
-      - main  # master 대신 main 브랜치 사용
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: 
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-      
+      - uses: actions/checkout@v4  # v2에서 v4로 업데이트
+
       - name: Generate Snake
-        uses: Platane/snk/svg-only@v2
+        uses: Platane/snk@v3  # svg-only@v2에서 v3로 업데이트
         with:
           github_user_name: minzzzun
           outputs: |
@@ -23,9 +25,9 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to GitHub
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4  # v3.1.0에서 v4로 업데이트
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GH_TOKEN 대신 GITHUB_TOKEN 사용
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
