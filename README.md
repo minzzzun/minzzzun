@@ -3,6 +3,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minzzzun&theme=dark&bg_color=1A472A&border_color=5D8B67&text_color=C0C0C0)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=minzzzun&show_icons=true&theme=dark&bg_color=1A472A&border_color=5D8B67&icon_color=5D8B67&text_color=C0C0C0)
+![Snake animation](https://github.com/{username}/{username}/blob/main/dist/github-contribution-grid-snake.svg)
+
 
 ### 🐍 Languages & Skills
 ![Swift](https://img.shields.io/badge/Swift-1A472A?style=for-the-badge&logo=swift&logoColor=C0C0C0)
