@@ -17,4 +17,12 @@
 
 
 
+<a href="https://github.com/devxb/gitanimals">
+<img
+  src="https://render.gitanimals.org/farms/minzzzun"
+  width="600"
+  height="300"
+/>
+</a>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=2A623D&height=150&section=footer" />
