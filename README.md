@@ -13,7 +13,10 @@
 
 ![Snake animation](https://raw.githubusercontent.com/minzzzun/minzzzun/output/github-contribution-grid-snake.svg)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=minzzzun&show_icons=true&theme=dark&bg_color=1A472A&border_color=2A623D&icon_color=52B788&text_color=AAAAAA&title_color=52B788)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minzzzun&theme=dark&bg_color=1A472A&border_color=2A623D&text_color=AAAAAA&title_color=52B788)](https://github.com/anuraghazra/github-readme-stats)
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={kmj392766m})](https://solved.ac/{kmj392766m})
 
 
 
